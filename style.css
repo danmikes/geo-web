@@ -1,0 +1,148 @@
+/* css3 */
+html {
+text-align: center;
+background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("home.png") no-repeat center fixed; background-size: cover;
+background: -moz-linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("home.png") no-repeat center fixed; background-size: cover;
+background: -ms-linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("home.png") no-repeat center fixed; background-size: cover;
+background: -o-linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("home.png") no-repeat center fixed; background-size: cover;
+background: -webkit-linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("home.png") no-repeat center fixed; background-size: cover;
+}
+body {
+margin: 0;
+padding: 0;
+}
+header {
+margin: 10px;
+}
+nav {
+margin-bottom: 10px;
+}
+main {
+height: 100%;
+}
+footer {
+}
+html, body, header, nav, main, footer, div, span {
+display: flex; display: -webkit-flex;
+}
+html, body, header, div, span {
+flex-flow: column wrap; -webkit-flex-flow: column wrap;
+}
+nav, main, footer {
+flex-flow: row wrap; -webkit-flex-flow: row wrap;
+}
+nav, main, footer {
+justify-content: center; -webkit-justify-content: center;
+align-content: baseline; -webkit-align-content: baseline;
+align-items: space-around; -webkit-align-items: space-around;
+}
+header {
+align-content: center; -webkit-align-content: center;
+}
+div {
+background-color: rgba(100,100,100,0.8);
+flex: 0 33.33%; -webkit-flex: 0 33.33%;
+box-shadow: inset 0px 1px 1px 0px white, inset -0px -1px 1px 1px black;
+}
+div p {
+text-align: justify;
+}
+span {
+padding: 10px;
+}
+h1, h2, h3, h4, h5, p {
+opacity: 0.9;
+margin: 0;
+padding: 5px;
+text-shadow: 0px -1px 1px white, 0px 2px 2px black;
+}
+h1 {
+padding-right: 20px; padding-left: 20px;
+font-size: 60px;
+color: rgb(0,0,150);
+text-shadow: 0px -2px 2px white, 0px 2px 2px black;
+}
+h1 {
+r: #fff;
+text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+h2, h3 {
+background-color: rgba(0,0,0,0.4);
+width: 100px;
+padding: 10px 40px 10px 40px;
+box-shadow: inset 0px 1px 1px 0px white, inset -0px -1px 1px 1px black;
+font-size: 25px;
+}
+h2 {
+color: magenta;
+}
+h3 {
+color: cyan;
+}
+h4 {
+background-color: rgba(0,0,0,0.4);
+margin-bottom: 5px;
+font-size: 25px;
+color: orange;
+}
+h5 {
+background-color: rgba(0,0,0,0.2);
+margin-bottom: 5px;
+font-size: 24px;
+color: yellow;
+}
+p {
+background-color: rgba(0,0,0,0.1);
+margin-bottom: 5px;
+font-size: 23px;
+color: white;
+text-shadow: 0px -1px 1px white, 0px 2px 2px black;
+}
+a {
+text-decoration: none
+}
+a:hover h2, a:hover h3 {
+background-color: rgba(50,50,0,0.6);
+}
+a:active h2, a:focus h2, a:active h3, a:focus h3 {
+background-color: rgba(0,50,0,0.6);
+}
+a.current h2, a.current h3 {
+background-color: rgba(50,0,0,0.6);
+}
+p a {
+color: cyan;
+}
+p a:hover, p a:hover h3 {
+color: magenta;
+}
+img, video {
+background-color: rgba(0,0,0,0.5);
+width: 100%; height: auto;
+margin-bottom: 10px;
+}
+@media screen and (max-width: 840px) and (min-width: 480px) {
+div {
+flex: 0 50%; -webkit-flex: 0 50%;
+}
+}
+@media screen and (max-width: 480px) {
+div {
+flex: 0 100%; -webkit-flex: 0 100%;
+}
+nav a, a h2, a h3 {
+flex: 0 100%; -webkit-flex: 0 100%;
+}
+a {
+width: 100%;
+}
+h2, h3 {
+width: 100%;
+margin: 0;
+padding: 1%;
+padding-top: 1ex;
+padding-bottom: 1ex;
+}
+}
+@media only print and (max-width: 600px) {
+}

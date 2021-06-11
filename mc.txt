@@ -1,0 +1,57 @@
+Mikes Consult
+1 index
+   service
+    instruction
+    project
+    research
+   product
+    presentation
+    report
+    article
+   expertise
+    process sedimentology
+    petroleum geology
+    theoretic geology
+2 service
+   instruction
+    course
+    workshop
+    fieldwork
+   project
+    planning
+    monitoring
+    evaluation
+   research
+    fundamental
+    applied
+    flexible
+3 product
+   presentation
+    short
+    medium
+    long
+   report
+    preliminary
+    mid-term
+    final
+   publication
+    poster
+    short note
+    article
+4 expertise
+   process sedimentology
+    facies analysis
+    system analysis
+    basin analysis
+   petroleum geology
+    geologic modelling
+    reservoir characterisation
+    petroleum system analysis
+   theoretic geology
+    virtual deposystem
+    artificial deposystem
+    natural deposystem
+5 info
+   who
+   what
+   where
